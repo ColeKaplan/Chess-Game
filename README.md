@@ -19,7 +19,7 @@ Class Description
 ------------------
   
 ChessFrame:  
-	ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on  
+       ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on  
 ChessComponent:  
 	ChessComponent holds most of the actual gameplay, along with the arraylist of pieces  
 	ChessComponent draws the pieces onto the board  
