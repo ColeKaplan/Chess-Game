@@ -26,7 +26,7 @@ ChessComponent:
 &nbsp;&nbsp;&nbsp;&nbsp;	ChessComponent has mouselisteners so that clicking on pieces can trigger highlighting, moving, and capturing  
 Board:  
 &nbsp;&nbsp;&nbsp;&nbsp;	Board is run frequently by ChessComponent's repaint method and is in charge of drawing the tiles, finishing lines,   
-	starting screen, and &nbsp;&nbsp;&nbsp;&nbsp;promotion images  
+	starting screen, and promotion images  
 Piece:  
 &nbsp;&nbsp;&nbsp;&nbsp;	Piece is a parent class for every piece type so that general methods can be called and they can all be in an arraylist together  
 &nbsp;&nbsp;&nbsp;&nbsp;	Piece tracks all of the individual piece data, but does not have access to pieces, so pieces is frequently updated through a setter method  
