@@ -17,29 +17,16 @@ Exit the code and to play it again repeat this process
 
 Class Description
 ------------------
-
-ChessFrame:
-	ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on
-ChessComponent:
-	ChessComponent holds most of the actual gameplay, along with the arraylist of pieces
-	ChessComponent draws the pieces onto the board
-	ChessComponent has mouselisteners so that clicking on pieces can trigger highlighting, moving, and capturing
-Board:
-	Board is run frequently by ChessComponent's repaint method and is in charge of drawing the tiles, finishing lines, starting screen, and promotion images
-Piece:
-	Piece is a parent class for every piece type so that general methods can be called and they can all be in an arraylist together
-	Piece tracks all of the individual piece data, but does not have access to pieces, so pieces is frequently updated through a setter method
-Knight:
-	Redefines move and value for Knights
-Bishop:
-	Redefines move and value for Bishops
-Rook:
-	Redefines move and value for Rooks
-Queen:
-	Redefines move and value for Queens
-Pawn:
-	Redefines move and value for Pawns
-King:
-	Redefines move and value for Kings
-	Checks if the King is in Check
+  
+ChessFrame:  
+	ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on  
+ChessComponent:  
+	ChessComponent holds most of the actual gameplay, along with the arraylist of pieces  
+	ChessComponent draws the pieces onto the board  
+	ChessComponent has mouselisteners so that clicking on pieces can trigger highlighting, moving, and capturing  
+Board:  
+	Board is run frequently by ChessComponent's repaint method and is in charge of drawing the tiles, finishing lines, starting screen, and   promotion images  
+Piece:  
+	Piece is a parent class for every piece type so that general methods can be called and they can all be in an arraylist together  
+	Piece tracks all of the individual piece data, but does not have access to pieces, so pieces is frequently updated through a setter method  
 	
