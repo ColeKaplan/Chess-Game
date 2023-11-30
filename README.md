@@ -19,14 +19,14 @@ Class Description
 ------------------
   
 ChessFrame:  
-&nbsp;ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on  
+&nbsp;&nbsp;&nbsp;&nbsp;	ChessFrame creates the GUI and provides the frame for ChessComponent to be displayed on  
 ChessComponent:  
-	ChessComponent holds most of the actual gameplay, along with the arraylist of pieces  
-	ChessComponent draws the pieces onto the board  
-	ChessComponent has mouselisteners so that clicking on pieces can trigger highlighting, moving, and capturing  
+&nbsp;&nbsp;&nbsp;&nbsp;	ChessComponent holds most of the actual gameplay, along with the arraylist of pieces  
+&nbsp;&nbsp;&nbsp;&nbsp;	ChessComponent draws the pieces onto the board  
+&nbsp;&nbsp;&nbsp;&nbsp;	ChessComponent has mouselisteners so that clicking on pieces can trigger highlighting, moving, and capturing  
 Board:  
-	Board is run frequently by ChessComponent's repaint method and is in charge of drawing the tiles, finishing lines, starting screen, and   promotion images  
+&nbsp;&nbsp;&nbsp;&nbsp;	Board is run frequently by ChessComponent's repaint method and is in charge of drawing the tiles, finishing lines, starting screen, and promotion images  
 Piece:  
-	Piece is a parent class for every piece type so that general methods can be called and they can all be in an arraylist together  
-	Piece tracks all of the individual piece data, but does not have access to pieces, so pieces is frequently updated through a setter method  
+&nbsp;&nbsp;&nbsp;&nbsp;	Piece is a parent class for every piece type so that general methods can be called and they can all be in an arraylist together  
+&nbsp;&nbsp;&nbsp;&nbsp;	Piece tracks all of the individual piece data, but does not have access to pieces, so pieces is frequently updated through a setter method  
 	
